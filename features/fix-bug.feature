@@ -7,4 +7,4 @@ Feature: Fix bug on Categories
     
   Scenario: Successfully access Categories
     Given I am on the categories page
-    Then I should see "Name"
+    Then I should see "Description"

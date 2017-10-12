@@ -2,7 +2,7 @@ class Admin::CategoriesController < Admin::BaseController
   cache_sweeper :blog_sweeper
 
   def index
-    byebug
+    # byebug
     redirect_to :action => 'new' 
   end
   def edit; new_or_edit;  end
